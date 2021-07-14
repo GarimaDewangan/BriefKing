@@ -1,0 +1,7 @@
+numpy 
+pandas
+pydub
+soundfile
+torch
+transformers
+librosa
