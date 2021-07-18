@@ -4,7 +4,8 @@
 *I was unable to upload some files on github. Please check the drive link:*  
 https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sharing  
 
-  
+***Work Distribution over checkpoints***  
+
 *Checkpoint1*  
  - Completed a course on ML (Check pdf file [#Week1-2](https://github.com/GarimaDewangan/BriefKing/blob/main/%23WEEK%201-2.pdf)) 
    
@@ -24,10 +25,26 @@ https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sha
   
     
 ***Files in the Repository***
- - *BriefKing.py* : The code for streamlit app 
+ - *BriefKing.py* : The code for streamlit app [Speech2Text and Summarize]
  - *requirements.txt* : Contains the list of required python libraries
  - *input.wav* : The audio file used for testing denoising and speech2text models
- - *SOC-BriefKing.py* : Colab file to run streamlit app BriefKing.py on colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AhWYmXGdHdvu8LbD6Fbe_2ivN_xFt9b9?usp=sharing) (This app only contains speech to text and summarization)
+ - *SOC-BriefKing.py* : Colab file to run BriefKing.py on colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AhWYmXGdHdvu8LbD6Fbe_2ivN_xFt9b9?usp=sharing)  
+ - *BriefKing_FinalApp.py* : Final code integrating denoiser-speech2text-summarizer (Can be run on pycharm locally)
+ - *Audio_denoising.py* : Denoises the audio
+ - *Speech_to_Text.py*: Converts speech to text  
+   
+ **Extra Files on Google Drive**
+ - Pre trained Models  
+    - *pytorch_model.bin*  
+    - *config.json*  
+    - *special_tokens_map.json*  
+    - *tokenizer.config*  
+    - *vocab.json*  
+    - *summarize.pickle*
+ - *download.py* : Running this file downloads the above models
+ 
+ **How to run the app locally**
+ - CLone the repository
  
  ***References*** 
  >**Speech2Text**  
