@@ -11,7 +11,7 @@ https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sha
    
    
  *Checkpoint2*    
- - Compared different ML/DL models for speech to text conversion (Check pdf file [ML-Models]())  
+ - Compared different ML/DL models for speech to text conversion (Check pdf file [ML-Models](https://github.com/GarimaDewangan/BriefKing/blob/main/ML-Models.pdf))  
  - Best Model I found was espnet
  - Model decided by the group is Transformer wav2vec model    
   
