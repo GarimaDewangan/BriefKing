@@ -1,7 +1,7 @@
 # BriefKing
 **Summer Of Code | Implementation Project**  
   
-*I was unable to upload some files on github. Please check the drive link:*  
+*I was unable to upload some files on github. Please check the drive link for all files:*  
 https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sharing  
 
 ***Work Distribution over checkpoints***  
@@ -32,19 +32,31 @@ https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sha
  - *BriefKing_FinalApp.py* : Final code integrating denoiser-speech2text-summarizer (Can be run on pycharm locally)
  - *Audio_denoising.py* : Denoises the audio
  - *Speech_to_Text.py*: Converts speech to text  
+ - *BriefKing.jpeg* : Logo of BriefKing  
    
  **Extra Files on Google Drive**
  - Pre trained Models  
     - *pytorch_model.bin*  
     - *config.json*  
     - *special_tokens_map.json*  
-    - *tokenizer.config*  
+    - *tokenizer_config.json*  
     - *vocab.json*  
     - *summarize.pickle*
  - *download.py* : Running this file downloads the above models
+ - *input_file.wav* : A sample audio for testing
  
- **How to run the app locally**
- - CLone the repository
+ ***How to run the app locally***
+ - Download the drive folder on you computer  
+ - Open the command terminal
+ - Navigate to the folder
+ - `pip install -r requirements.txt` 
+ - `streamlit run BriefKing_FinalApp.py`   
+ 
+***How to use the app***  
+
+(1) Upload the audio file which you want to summarize  
+(2) Press "Brief It!" and wait for a few seconds  
+(3) Download the summarized text file"
  
  ***References*** 
  >**Speech2Text**  
@@ -72,5 +84,12 @@ https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sha
  >> https://developers.google.com/machine-learning/crash-course  
  >> https://stackoverflow.com/questions/5120555/how-can-i-convert-a-wav-from-stereo-to-mono-in-python
  
-> Used [transformers](https://github.com/huggingface/transformers) library for Speech2Text conversion and summarization
+> Used [transformers](https://github.com/huggingface/transformers) library for Speech2Text conversion and summarization  
+> Used [facebook-denoiser](https://github.com/facebookresearch/denoiser) model for denoising  
+
+All the assets/resources/libraries used in BriefKing were, to the best of our knowledge, taken from copyleft material. Incase of any inadvertent copyright infringement by us, please contact the team.
+
+ *License of the models used*  
+  https://github.com/huggingface/transformers/blob/master/LICENSE  
+  https://github.com/facebookresearch/denoiser/blob/master/LICENSE
 
