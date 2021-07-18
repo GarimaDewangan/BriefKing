@@ -29,7 +29,7 @@ https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sha
  - *requirements.txt* : Contains the list of required python libraries
  - *input.wav* : The audio file used for testing denoising and speech2text models
  - *SOC-BriefKing.py* : Colab file to run BriefKing.py on colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AhWYmXGdHdvu8LbD6Fbe_2ivN_xFt9b9?usp=sharing)  
- - *BriefKing_FinalApp.py* : Final code integrating denoiser-speech2text-summarizer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fcO8QmGLq0t_mMVtIMgfBmRd_E3TETEU?usp=sharing)
+ - *BriefKing_FinalApp.py* : Colab file to run final code integrating denoiser-speech2text-summarizer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fcO8QmGLq0t_mMVtIMgfBmRd_E3TETEU?usp=sharing)
  - *Audio_denoising.py* : Denoises the audio
  - *Speech_to_Text.py*: Converts speech to text  
  - *BriefKing.jpeg* : Logo of BriefKing  
@@ -45,13 +45,17 @@ https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sha
  - *download.py* : Running this file downloads the above models
  - *input_file.wav* : A sample audio for testing
  
- ***How to run the app locally***
+ ***How to run the app locally***  
+ 
  - Download the drive folder on you computer  
  - Open the command terminal
  - Navigate to the folder
  - `pip install -r requirements.txt` 
  - `streamlit run BriefKing_FinalApp.py`   
- 
+  
+***How to run the app on colab***
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fcO8QmGLq0t_mMVtIMgfBmRd_E3TETEU?usp=sharing)
+  
 ***How to use the app***  
 
 (1) Upload the audio file which you want to summarize  
