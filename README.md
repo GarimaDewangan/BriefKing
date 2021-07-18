@@ -53,7 +53,8 @@ https://drive.google.com/drive/folders/1dpTqg2lhS5CnP_s00b7bSvTwKTErm0Iv?usp=sha
  - `pip install -r requirements.txt` 
  - `streamlit run BriefKing_FinalApp.py`   
   
-***How to run the app on colab***
+***How to run the app on colab***  
+
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fcO8QmGLq0t_mMVtIMgfBmRd_E3TETEU?usp=sharing)
   
 ***How to use the app***  
